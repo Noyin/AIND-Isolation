@@ -228,7 +228,7 @@ class CustomPlayer:
         return move
         raise NotImplementedError
 
-    #####################_HELPER FUNCTION FOR TO HANDLE MINIMAX OR ALPHA BETA PRUNING_########################
+    #####################_HELPER FUNCTION TO HANDLE MINIMAX OR ALPHA BETA PRUNING_###########################
 
     def adversarial_search(self, game, depth):
         if self.time_left() < self.TIMER_THRESHOLD:
