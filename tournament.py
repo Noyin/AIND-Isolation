@@ -132,6 +132,7 @@ def play_round(agents, num_matches):
         print("\tResult: {} to {}".format(int(counts[agent_1.player]),
                                           int(counts[agent_2.player])))
 
+
     return 100. * wins / total
 
 
